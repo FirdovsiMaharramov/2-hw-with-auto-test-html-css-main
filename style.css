@@ -49,6 +49,8 @@ top: 70px;
 gap: 0px;
 opacity: 0px;
 
+background-color: white;
+
 
    
 
@@ -96,11 +98,12 @@ color:#303030 ;
     /* Стили для изображения в первой секции */
 
     max-width: 715px;
-height: 508px;
-top: 230px;
-left: -0px;
-gap: 0px;
-opacity: 0px;
+    height: 508px;
+    top: 230px;
+    left: -0px;
+    gap: 0px;
+    opacity: 0px;
+                
 
 
 }
@@ -108,13 +111,15 @@ opacity: 0px;
 
 .about-section {
     /* Стили для второй секции */
-    width: 1440px;
-height: 883px;
-top: 1094px;
-gap: 0px;
-opacity: 0px;
-background-color: white;
-padding: 100px 0pxgi;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 100px 0px;
+    
 }
 
 select {
@@ -136,7 +141,7 @@ line-height: 19.36px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
+background-repeat: no-repeat;
 
 }
 
@@ -155,6 +160,9 @@ text-decoration-skip-ink: none;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 20px;
        
 
 
@@ -166,12 +174,12 @@ text-decoration-skip-ink: none;
     /* Стили для маркированного списка во второй секции */
     font-family: Inter;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 19.36px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    
+
       
 
 }
@@ -185,7 +193,7 @@ gap: 0px;
 opacity: 0px;
 font-weight: 400;
 font-size: 16px;
-padding: 40px 0px 0px 0px;
+
 
 }
 
@@ -298,10 +306,17 @@ left: 1px;
 gap: 0px;
 opacity: 0px;
 color:#2965F1 ;
-font-size: ;
-font-weight: ;
-color: ;
+font-size: 16px;
+font-weight: 500;
+
 text-decoration: ;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
     
 
 }
