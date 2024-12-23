@@ -8,6 +8,7 @@ body {
     font-style: normal;
     line-height: normal;
     font-family: Inter, sans-serif;
+    color: #303030;
 }
 
 header {
@@ -50,6 +51,7 @@ gap: 0px;
 opacity: 0px;
 
 background-color: white;
+padding: 60px 0px;
 
 
    
