@@ -43,15 +43,14 @@ opacity: 0px;
 
 .main-section {
     /* Стили для первой секции */
-
     width: 1440px;
-height: 1024px;
+min-height: 1024px;
 top: 70px;
 gap: 0px;
 opacity: 0px;
-padding: 60 px 0px;
-min-height: 0;
 
+
+   
 
     
 }
@@ -71,7 +70,8 @@ top: 130px;
 gap: 0px;
 opacity: 0px;
 color: #303030;
-padding: 60px 0;
+padding: 60px 0px;
+margin-bottom: 20px;
 }
 
 .main-text {
@@ -95,12 +95,13 @@ color:#303030 ;
 .main-image {
     /* Стили для изображения в первой секции */
 
-    width: 715.02px;
+    max-width: 715px;
 height: 508px;
 top: 230px;
 left: -0px;
 gap: 0px;
 opacity: 0px;
+
 
 }
 
@@ -112,7 +113,8 @@ height: 883px;
 top: 1094px;
 gap: 0px;
 opacity: 0px;
-
+background-color: white;
+padding: 100px 0pxgi;
 }
 
 select {
@@ -181,6 +183,9 @@ height: 111px;
 top: 1341px;
 gap: 0px;
 opacity: 0px;
+font-weight: 400;
+font-size: 16px;
+padding: 40px 0px 0px 0px;
 
 }
 
@@ -250,12 +255,15 @@ padding: 5px ;
 
 table {
     /* Стили для таблицы */
-    border: 1 px solid #95A1BB;
+    border: 1px ;
     width: 300px;
 height: 196px;
 top: 1681px;
 gap: 0px;
 opacity: 0px;
+border-collapse: collapse;
+font-size: 16px;
+font-weight: 500;
 
 }
 
