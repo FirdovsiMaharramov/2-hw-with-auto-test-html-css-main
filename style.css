@@ -222,11 +222,13 @@ padding: 0px 20px;
 height: 36px;
 top: 1525px;
 gap: 0px;
-border-radius: 5px 0px 0px 0px;
+border-radius: 5px ;
 border: 1px 0px 0px 0px;
 opacity: 0px;
 border: 1px solid #3030304D;
-
+font-weight: 400;
+font-size:16px ;
+background-color: #3030304D;
 }
 
 .btn {
